@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+main{
+    width: 760px;
+    height: 1200px;
+    margin: auto;
+}
+.container{
+    height: 100%;
+    width: 564px;
+    margin: auto;
+   
+
+}
+form{
+    margin-top: 40px;
+}
+#username{
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    border: solid 1px gray;
+    gap: 32px;
+    padding: 16px;
+}
+#password{
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    border: solid 1px gray;
+    gap: 32px;
+    padding: 16px;
+}
+#label{
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    border: solid 1px gray;
+    gap: 32px;
+    padding: 16px;
+}
+#remember{
+    height: 24px;
+    width: 24px;
+    border-radius: 8px;
+}
+#radio1{
+    height: 24px;
+    width: 24px;
+}
+#on{
+    height: 24px;
+    width: 24px;
+}
+#off{
+    height: 24px;
+    width: 24px;
+}
+#radio2{
+    height: 24px;
+    width: 24px;
+}
+#radio3{
+    height: 24px;
+    width: 24px;
+}
+#dropdown{
+    width: 100%;
+    height: 56px;
+    border-radius: 8px 8px 0 0;
+    padding: 16px;
+}
+#val1{
+    height: 56px;
+}
+.cancel{
+    background-color: unset;
+    padding-block: 16px;
+    padding-inline: 40px;
+    border: solid 2px rgb(250, 110, 250);
+    border-radius: 8px;
+    color: rgb(250, 110, 250);
+}
+.next{
+    background-color: rgb(250, 110, 250);
+    padding-block: 16px;
+    padding-inline: 40px;
+    border: solid 2px rgb(250, 110, 250);
+    border-radius: 8px;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
