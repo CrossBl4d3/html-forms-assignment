@@ -87,6 +87,11 @@ form{
     border-radius: 8px;
     color: rgb(250, 110, 250);
 }
+.cancel:hover{
+    cursor: pointer;
+    background-color: rgb(250, 110, 250);
+    color: white;
+}
 .next{
     background-color: rgb(250, 110, 250);
     padding-block: 16px;
@@ -94,6 +99,13 @@ form{
     border: solid 2px rgb(250, 110, 250);
     border-radius: 8px;
     color: white;
+
+}
+
+.next:hover{
+    background-color: white;
+    cursor: pointer;
+    color: rgb(250, 110, 250);
 }
 .button{
     display: flex;
